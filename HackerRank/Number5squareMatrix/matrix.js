@@ -12,19 +12,15 @@
          totalLtR = totalLtR + arr[i][arrLastIndex - i];
          
      }
-     console.log(totalRtL);
-     console.log(totalLtR);
 
      let difference;
      
 
      if(totalRtL < totalLtR){
          difference = totalLtR - totalRtL;
-         console.log(difference);
          return difference;
      } else {
         difference = totalLtR - totalRtL;
-        console.log(difference);
          return difference;
      } 
    
